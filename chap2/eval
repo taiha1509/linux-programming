@@ -1,0 +1,10 @@
+#!/bin/sh
+bar=20
+foo=bar
+x=foo
+y='$'$x
+echo $y
+eval y='$'$x
+echo $y
+eval y='$''$'$x
+echo $y

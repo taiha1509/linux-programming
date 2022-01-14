@@ -1,0 +1,12 @@
+#!/bin/sh
+
+sample="global"
+
+foo() {
+	local sample="local"
+	echo $sample
+}
+
+
+foo
+exit 0

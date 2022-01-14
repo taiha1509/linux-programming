@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo $*
+
+exit 0
+branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+echo "$branch"
+if [ "$branch" = "" ]
+then
+	pintf "Cannot find branch name\n"
+else
+	git add .
+	git commit -m "$1"
+	git push --set-upstream origin "$branch"
+fi
+exit 0

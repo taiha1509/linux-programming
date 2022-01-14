@@ -1,0 +1,7 @@
+total 24
+-rwxrwxr-x 1 hant hant 16736 Thg 1  12 17:23 hello
+-rw-rw-r-- 1 hant hant    89 Thg 1  12 17:23 hello.c
+-rw-rw-r-- 1 hant hant     0 Thg 1  12 18:10 text.txt
+    PID TTY          TIME CMD
+  72513 pts/8    00:00:00 bash
+  77126 pts/8    00:00:00 ps

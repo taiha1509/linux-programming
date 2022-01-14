@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export foo="foo variable"
+export bar="second var"
+
+./export1
